@@ -7,10 +7,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 
+html {
+    font-family: 'Palanquin', sans-serif;
+}
+
+h1 {
+    padding-left: 83px;
+    position: relative;
+    font-size: 35px;
+    font-weight: 600;
+    color: #e57373;
+}
 
 .chicago {
     position: relative;
-    filter: contrast(1.8) brightness(1.0) grayscale(0.6);
 }
 
 .chicago:before,
@@ -21,7 +31,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     top 0;
     left: 0;
     position: relative;
-    
 }
 
 .chicago-background {
@@ -29,7 +38,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     height: 100%;
     margin: 0;
     padding: 0;
-    
 }
 
 .iit-logo {
@@ -38,9 +46,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     margin: 0;
     padding: 0;
     position: relative;
-    bottom: 70px;
-    left: 40px
+    bottom: 75px;
+    left: 170px;
 }
+
 #IITLogin {
     padding-top:120px;
     padding-left: 130px;

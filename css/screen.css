@@ -9,12 +9,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
     font-family: 'Palanquin', sans-serif;
+    font-size: 1.25em; /* 20/16 = 1.25*/
+    line-height: 1.2em /* 24 / 20 = 1.2em */
 }
 
 h1 {
-    padding-left: 83px;
+    padding-left: 4.15em; /* 83 / 20 = 4.15em */
     position: relative;
-    font-size: 35px;
+    font-size: 1.75em; /* 35 / 20 = 1.75em */
     font-weight: 600;
     color: #e57373;
 }
@@ -46,8 +48,61 @@ h1 {
     margin: 0;
     padding: 0;
     position: relative;
-    bottom: 75px;
-    left: 170px;
+    bottom: 3.75em; /* 75 / 20 = 3.75em */
+    left: 8.5em; /*170 / 20 = 8.5em */
+}
+
+/*
+==================================
+Finance Page
+==================================
+*/
+
+.content, .content * {
+  -webkit-box-sizing:border-box;  
+  -moz-box-sizing:border-box; 
+  box-sizing:border-box;
+}
+
+
+.content {
+  height: 1000%;
+  width: 100%;
+  overflow:hidden;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+  border-radius:3px;
+  background:#f7f7f7;
+}
+
+.content-section-title {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+    border-bottom:1px solid #1a1a1a;
+    background:#333;
+    transition:all linear 0.15s;
+    /* Type */
+    font-size:1.00em;
+    line-height: 1.2em;
+    text-shadow:0px 1px 0px #1a1a1a;
+    color:#fff;
+    text-decoration:none;
+}
+
+.content-section-title.active, .content-section-title:hover {
+    background:#4c4c4c;
+    /* Type */
+    text-decoration:none;
+}
+
+.content-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+
+/*----- Section Content -----*/
+.content-section-content {
+    padding:15px;
+    display:none;
 }
 
 #IITLogin {

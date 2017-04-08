@@ -112,6 +112,15 @@ Finance Page
     padding-right: 0em;
 }
 
+.hidden-content-2 section .hidden-content-left {
+    font-weight: bold;
+    font-size: 1.00em;
+}
+
+.hidden-content-2 .hidden-content-left, 
+.hidden-content-2 .hidden-content-right {
+    font-size: 0.8em;
+}
 .content-list input[type="submit"] {
   font-family: inherit;
   border-radius: 0.5em;

@@ -150,7 +150,7 @@ Finance Page
 }
 
 #name-field {
-    height: 20px;
+    height: 40px;
     border: 3px solid #A9A9A9;
     padding: 4px 7px;
     border-radius: 6px;
@@ -161,18 +161,18 @@ Finance Page
 }
 
 #password-field {
-    height: 20px;
+    height: 40px;
     border: 3px solid #A9A9A9;
     padding: 4px 7px;
     border-radius: 6px;
 }
 
 #submit {
-    padding-left: 38px;
+    padding-left: 47px;
 }
 
 #submit-button {
-    height: 30px;
+    height: 40px;
     width: 90px;
     border: 3px solid #45A148;
     padding: 4px 7px;
@@ -184,4 +184,24 @@ Finance Page
     width: 200px;
     height: auto;
     padding-left: 100px;
+}
+
+.login-links {
+    display: inline-flex;
+    padding-top: 20px;
+    font-size: 16px
+}
+
+a {
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+.alert {
+    padding-left: 90px;
+    padding-right: 20px;
+}
+
+.help {
+    padding-right: 20px;
 }

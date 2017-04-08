@@ -14,11 +14,12 @@ html {
 }
 
 h1 {
-    padding-left: 4.15em; /* 83 / 20 = 4.15em */
-    position: relative;
+    text-align: center; /* 83 / 20 = 4.15em */
+    padding-top: 40px;
     font-size: 1.75em; /* 35 / 20 = 1.75em */
     font-weight: 600;
-    color: #e57373;
+    color: #C6263D;
+    opacity: .90;
 }
 
 .chicago {
@@ -139,8 +140,8 @@ Finance Page
 }
 
 #IITLogin {
-    padding-top:50px;
-    padding-left: 130px;
+
+    padding-left: 100px;
     padding-bottom: 50px;
 }
 
@@ -150,7 +151,8 @@ Finance Page
 }
 
 #name-field {
-    height: 40px;
+    height: 25px;
+    width: 200px;
     border: 3px solid #A9A9A9;
     padding: 4px 7px;
     border-radius: 6px;
@@ -161,32 +163,36 @@ Finance Page
 }
 
 #password-field {
-    height: 40px;
+    height: 25px;
+    width: 200px;
     border: 3px solid #A9A9A9;
     padding: 4px 7px;
     border-radius: 6px;
 }
 
 #submit {
-    padding-left: 47px;
+    padding-left: 80px;
 }
 
 #submit-button {
-    height: 40px;
-    width: 90px;
+    height: 24px;
+    width: 24px;
     border: 3px solid #45A148;
+    opacity: 0.8;
     padding: 4px 7px;
     border-radius: 6px;
     background-color: #FFFFFF;
 }
 
 .social-media {
+    text-align: center;
     width: 200px;
     height: auto;
     padding-left: 100px;
 }
 
 .login-links {
+    text-align: center;
     display: inline-flex;
     padding-top: 20px;
     font-size: 16px
@@ -205,3 +211,4 @@ a {
 .help {
     padding-right: 20px;
 }
+

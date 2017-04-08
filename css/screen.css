@@ -112,6 +112,9 @@ Finance Page
     padding-right: 0em;
 }
 
+.hidden-content-2 {
+    padding-top: 0.7em;
+}
 .hidden-content-2 section .hidden-content-left {
     font-weight: bold;
     font-size: 1.00em;

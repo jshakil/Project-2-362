@@ -8,3 +8,7 @@ My strengths are design UI/UX, and writting pretty decent HTML. I'm learning a b
 Dipen: 
 
 I am good at writing symmentic HTML and I like writing JavaScript. JavaScript and CSS are my strength
+
+Marko:
+
+I have a pretty clear understanding of HTML and CSS and I write clean code. Basically HTML and CSS are my strengths. Also being creative, helpful and I think I'm good with picking colors & palettes. JS is kind of my weakness.

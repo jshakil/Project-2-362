@@ -13,6 +13,11 @@ html {
   line-height: 1.2em /* 24 / 20 = 1.2em */
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
   text-align: center; /* 83 / 20 = 4.15em */
   padding-top: 40px;
@@ -143,6 +148,8 @@ Finance Page
 #IITLogin {
   padding-left: 100px;
   padding-bottom: 42px;
+  margin: 0 auto;
+  width: 300px;
 }
 
 #username {
@@ -186,29 +193,47 @@ Finance Page
   text-align: center;
   width: 200px;
   height: auto;
-  padding-left: 100px;
+  padding-left: 88px;
+}
+
+.social-media-icons {
+    margin: 0 auto;
+    width: 360px;
+    padding-bottom: 15px;
 }
 
 .login-links {
-  text-align: center;
   display: inline-flex;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 15px;
   font-weight: lighter;
+  background-color: #C6263D;
+  opacity: 0.9;
+  margin: 0 auto;
+  width: 100%;
+  
 }
 
 a {
   text-decoration: none;
-  color: #A9A9A9;
+  color: #FFF;
 }
 
 .alert {
-  padding-left: 90px;
-  padding-right: 20px;
+  
+  padding-left: 45px;
+  color: white;
+  margin: 0 auto; 
 }
 
 .help {
-  padding-right: 20px;
+
+  margin: 0 auto;
+}
+
+.policy {
+    margin: 0 auto;
 }
 
 .submit-label {
@@ -217,3 +242,4 @@ a {
   opacity: 0.8;
   font-size: 18px;
 }
+

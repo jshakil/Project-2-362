@@ -66,7 +66,7 @@ Finance Page
 
 #content {
   font-family: 'Arial';
-  font-size: 1.12em; /*18 / 20 = 0.9 */
+  font-size: 0.9em; /*18 / 20 = 0.9 */
   line-height: 1.27778em; /*23 / 20 = 1.277*/
 }
 section {
@@ -98,7 +98,9 @@ input[type=checkbox] {
   padding-bottom: 10px;
 }
 
-
+.subprimary-content {
+  font-weight: bold;
+}
 
 .title-label:before {
   content: "";
@@ -129,6 +131,9 @@ input[type=checkbox]:checked ~ h3 label:before {
   transition: max-height 0.4s ease;
 }
 
+.main-content ol {
+  background: rgb(242, 242, 242);
+}
 input[type=checkbox]:checked ~ h3 ~ ol li {
   margin-left: 10px;
   margin-top: 10px;

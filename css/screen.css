@@ -375,4 +375,10 @@ header nav > ul > li {
   border-bottom: none;
 }
 
+header > nav > ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
 }

@@ -8,23 +8,24 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 html {
-  font-family: 'Futura','Trebuchet MS','Arial',sans-serif; 
+  font-family: "Futura", "Trebuchet MS", "Arial", sans-serif;
   font-size: 1.25em; /* 20/16 = 1.25*/
   line-height: 1.2em /* 24 / 20 = 1.2em */
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   text-align: center; /* 83 / 20 = 4.15em */
-  padding-top: 40px;
+  padding-left: 1.5em;
+  padding-top: 2em;
   font-size: 1.75em; /* 35 / 20 = 1.75em */
   font-weight: 600;
   color: #C6263D;
-  opacity: .90;
+  opacity: 0.9;
 }
 
 .chicago {
@@ -55,7 +56,7 @@ Finance Page
 */
 
 #content {
-  font-family: 'Arial';
+  font-family: "Futura", "Trebuchet MS", "Arial", sans-serif;
   font-size: 0.9em; /*18 / 20 = 0.9 */
   line-height: 1.27778em; /*23 / 20 = 1.277*/
 }
@@ -68,14 +69,14 @@ section {
 }
 
 .main-content > ol > li {
-    flex: 0 1 45%;
-    padding: 0;
+  flex: 0 1 45%;
+  padding: 0;
 }
 
-input[type=checkbox] {
-   width: 100%;
-   height: 100%;
-   opacity: 0;
+input[type="checkbox"] {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
 
 
@@ -83,9 +84,9 @@ input[type=checkbox] {
   cursor: pointer;
   position: relative;
   display: block;
-  padding-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .subprimary-content {
@@ -97,15 +98,15 @@ input[type=checkbox] {
   position: absolute;
   width: 0;
   height: 0;
-  left: 10px;
-  border-left: 8px solid black;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-  margin-top: -2px;
+  left: 0.5em;
+  border-left: 0.4em solid black;
+  border-top: 0.4em solid transparent;
+  border-bottom: 0.4em solid transparent;
+  margin-top: -0.1em;
 }
 
 
-input[type=checkbox]:checked ~ h3 label:before {
+input[type="checkbox"]:checked ~ h3 label:before {
   border-left: 0.5em solid transparent;
   border-top: 0.5em solid black;
   border-right: 0.5em solid transparent;
@@ -117,23 +118,24 @@ input[type=checkbox]:checked ~ h3 label:before {
 .content-title {
   max-height: 0;
   display: none;
-  padding-left: 30px;
+  padding-left: 1.5em;
   transition: max-height 0.4s ease;
 }
 
 .main-content ol {
   background: rgb(242, 242, 242);
 }
-input[type=checkbox]:checked ~ h3 ~ ol li {
-  margin-left: 10px;
-  margin-top: 10px;
-  display:block;
-  max-height: 200px;
-} 
+
+input[type="checkbox"]:checked ~ h3 ~ ol li {
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  display: block;
+  max-height: 10em;
+}
 
 h3 .title-label {
-  box-shadow:0px 1px 3px rgba(0,0,0,0.25);
-  background:#f7f7f7;
+  box-shadow: 0 0.05em 0.15em rgba(0,0,0,0.25);
+  background: #f7f7f7;
 }
 
 /*
@@ -141,73 +143,72 @@ End of Finanace page
 */
 
 #IITLogin {
-  padding-left: 100px;
-  padding-bottom: 42px;
+  padding-left: 5em;
+  padding-bottom: 2.1em;
   margin: 0 auto;
-  width: 300px;
+  width: 15em;
 }
 
 #username {
-  padding-top: 50px;
-  padding-bottom: 35px;
+  padding-top: 2.5em;
+  padding-bottom: 1.75em;
 }
 
 #name-field {
-  height: 25px;
-  width: 200px;
-  border: 3px solid #A9A9A9;
-  padding: 4px 7px;
-  border-radius: 6px;
+  height: 2.2em;
+  width: 18em;
+  border: 0.3em solid #A9A9A9;
+  padding: 0.4em 0.7em;
+  border-radius: 0.6em;
 }
 
 #password {
-  padding-bottom: 23px;
+  padding-bottom: 1.15em;
 }
 
 #password-field {
-  height: 25px;
-  width: 200px;
-  border: 3px solid #A9A9A9;
-  padding: 4px 7px;
-  border-radius: 6px;
+  height: 2.2em;
+  width: 18em;
+  border: 0.3em solid #A9A9A9;
+  padding: 0.4em 0.7em;
+  border-radius: 0.6em;
 }
 
 #submit {
-  padding-left: 80px;
+  padding-left: 4.4em;
 }
 
 #submit-button {
-  height: 30px;
-  width: 30px;
+  height: 2.4em;
+  width: 2.4em;
   opacity: 0.8;
-  padding: 4px 7px;
+  padding: 0.4em 0.7em;
   background-color: #FFFFFF;
 }
 
 .social-media {
   text-align: center;
-  width: 200px;
+  width: 10em;
   height: auto;
-  padding-left: 88px;
+  padding-left: 5em;
 }
 
 .social-media-icons {
-    margin: 0 auto;
-    width: 360px;
-    padding-bottom: 15px;
+  margin: 0 auto;
+  width: 18em;
+  padding-bottom: 0.75em;
 }
 
 .login-links {
   display: inline-flex;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 15px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 0.75em;
   font-weight: lighter;
   background-color: #C6263D;
   opacity: 0.9;
   margin: 0 auto;
   width: 100%;
-  
 }
 
 a {
@@ -216,25 +217,23 @@ a {
 }
 
 .alert {
-  
-  padding-left: 45px;
+  padding-left: 2.25em;
   color: white;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .help {
-
   margin: 0 auto;
 }
 
 .policy {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .submit-label {
-  padding-left: 77px;
+  padding-left: 4.3em;
   color: #45A148;
   opacity: 0.8;
-  font-size: 18px;
+  font-size: 1em;
 }
 

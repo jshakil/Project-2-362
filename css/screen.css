@@ -314,6 +314,14 @@ header > nav > ul > li > nav {
   overflow: hidden;
 }
 
+header > nav > ul > li > nav > ul > li > a {
+  color: #FFFFFF;
+}
+
+header > nav > ul > li > nav > ul > li:hover > a {
+  background-color: #C90909;
+}
+
 
 /* END WELCOME PAGE*/
 

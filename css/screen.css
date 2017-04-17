@@ -389,4 +389,14 @@ header nav > ul > li > a span.toggle {
   display: none;  
 }
 
+header > nav > ul > li:hover > nav {
+  background-color: #8A0000;
+  display: block;
+  border-radius: .20em;
+  line-height: 2.5em;
+  right: -40%;
+  width: 190px;
+  }
+}
+
 }

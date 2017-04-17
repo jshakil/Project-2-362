@@ -49,11 +49,9 @@ h1 {
   left: 8.5em; /*170 / 20 = 8.5em */
 }
 
-/*
-==================================
-Finance Page
-==================================
-*/
+/*  ==================================
+            BEGIN Finance Page
+    ==================================  */
 
 #content {
   font-family: "Futura", "Trebuchet MS", "Arial", sans-serif;
@@ -138,9 +136,12 @@ h3 .title-label {
   background: #f7f7f7;
 }
 
-/*
-End of Finanace page
-*/
+/* End of Finanace page */
+
+/* ==================================
+           BEGIN Login Page
+  ================================== */
+
 
 #IITLogin {
   padding-left: 5em;
@@ -237,3 +238,9 @@ a {
   font-size: 1em;
 }
 
+/* END login page */
+
+
+/* ==================================
+           BEGIN Welcome Page
+  ================================== */

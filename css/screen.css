@@ -243,3 +243,8 @@ header {
     display: flex;
     flex-direction: column;
 }
+
+header > nav {
+    background-color: #FFFFFF;
+    display: none;
+}

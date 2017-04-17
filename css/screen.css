@@ -238,6 +238,19 @@ a {
 
 /* END login page */
 
+/* WELCOME PAGE */
+
+header {
+  background-color: #C6263D;
+  border-bottom: 1px solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* END WELCOME PAGE*/
 
 
 /* ===== STATE STYLES ===== */

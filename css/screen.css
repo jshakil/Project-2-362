@@ -210,6 +210,26 @@ h3 .title-label {
   width: 100%;
 }
 
+.social-media-icons-welcome {
+  margin: 0 auto;
+  width: 18em;
+  padding-top: 5.5em;
+  padding-bottom: 0.75em;
+}
+
+.login-links-welcome {
+  display: inline-flex;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 0.75em;
+  font-weight: lighter;
+  background-color: #C6263D;
+  opacity: 0.9;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
 a {
   text-decoration: none;
   color: #FFF;

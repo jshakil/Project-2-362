@@ -366,4 +366,10 @@ header > div#logo > h2 {
   color: #FFFFFF;
 }
 
+header > nav {
+  background-color: #C6263D;
+  display: block;
+}
+
+
 }

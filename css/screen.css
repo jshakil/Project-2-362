@@ -247,4 +247,11 @@ header {
 header > nav {
     background-color: #FFFFFF;
     display: none;
+    flex: 1;
+    transform: 500ms ease all;
+}
+
+header nav > ul > li {
+    border-bottom: 1px dotted;
+    position: relative;
 }

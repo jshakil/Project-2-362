@@ -250,6 +250,32 @@ header {
   box-sizing: border-box;
 }
 
+header > div#logo {
+  line-height: 60px;
+  position: relative;
+}
+
+header > div#logo > h2 {
+  color: #FFFFFF;
+}
+
+header > div#logo > div#navigation-toggle {
+  background-color: #a51d30;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+header > div#logo > div#navigation-toggle > a {
+  color: #FFFFFF;
+  font-size: 0.85em;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 3em;
+  display: block;
+}
+
+
 /* END WELCOME PAGE*/
 
 

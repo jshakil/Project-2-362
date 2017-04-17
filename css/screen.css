@@ -8,31 +8,27 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 html {
-  font-family: 'Futura','Trebuchet MS','Arial',sans-serif; 
+  font-family: "Futura", "Trebuchet MS", "Arial", sans-serif;
   font-size: 1.25em; /* 20/16 = 1.25*/
   line-height: 1.2em /* 24 / 20 = 1.2em */
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   text-align: center; /* 83 / 20 = 4.15em */
-  padding-top: 40px;
+  padding-left: 1.5em;
+  padding-top: 2em;
   font-size: 1.75em; /* 35 / 20 = 1.75em */
   font-weight: 600;
   color: #C6263D;
-  opacity: .90;
+  opacity: 0.9;
 }
 
 .chicago {
-  position: relative;
-}
-
-.chicago:before,
-.chicago: after {
-  content: '';
-  height: 100%;
-  width: 100%;
-  top 0;
-  left: 0;
   position: relative;
 }
 
@@ -59,161 +55,185 @@ Finance Page
 ==================================
 */
 
-.content, .content * {
-  -webkit-box-sizing:border-box;  
-  -moz-box-sizing:border-box; 
-  box-sizing:border-box;
-}
-
-
-.content {
-  font-family: 'Arial';
-  height: 1000%;
-  width: 100%;
-  overflow:hidden;
-  box-shadow:0px 1px 3px rgba(0,0,0,0.25);
-  border-radius:3px;
-  background:#f7f7f7;
-}
-
-.content-section-title {
-  width:100%;
-  padding:7px;
-  display:inline-block;
-  border-bottom:1px solid #1a1a1a;
-  background:#333;
-  transition:all linear 0.15s;
-    /* Type */
+#content {
+  font-family: "Futura", "Trebuchet MS", "Arial", sans-serif;
   font-size: 0.9em; /*18 / 20 = 0.9 */
-  line-height: 1.5em; 
-  text-shadow:0px 1px 0px #1a1a1a;
-  color:#fff;
-  text-decoration:none;
+  line-height: 1.27778em; /*23 / 20 = 1.277*/
+}
+section {
+  position: relative;
+}
+.main-content > ol {
+  display: flex;
+  justify-content: space-between;
 }
 
-.content-section-title.active, .content-section-title:hover {
-  background:#4c4c4c;
-    /* Type */
-  text-decoration:none;
+.main-content > ol > li {
+  flex: 0 1 45%;
+  padding: 0;
 }
 
-.content-section:last-child .accordion-section-title {
-  border-bottom:none;
+input[type="checkbox"] {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
 
-/*----- Section Content -----*/
-.content-section-content {
-  font-size: 0.8em; /*16 / 20 = 0.8*/
-  line-height: 1.25em; /*20 / 16 = 1.0*/
-  padding:15px;
-  display:none;
-}
 
-.hidden-content-right {
-  float: right;
-  padding-right: 0em;
-}
-
-.hidden-content-2 {
-  padding-top: 0.7em;
-}
-.hidden-content-2 section .hidden-content-left {
-  font-weight: bold;
-  font-size: 1.00em;
-}
-
-.hidden-content-2 .hidden-content-left, 
-.hidden-content-2 .hidden-content-right {
-  font-size: 0.8em;
-}
-.content-list input[type="submit"] {
-  font-family: inherit;
-  border-radius: 0.5em;
-  padding: 0.3em;
-  font-size: 0.8em;
-}
-
-#button-to-submit {
-  float:right;
-  padding-right: 0em;
+.title-label {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  padding-left: 1.5em;
   padding-top: 0.5em;
-  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
 }
+
+.subprimary-content {
+  font-weight: bold;
+}
+
+.title-label:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0.5em;
+  border-left: 0.4em solid black;
+  border-top: 0.4em solid transparent;
+  border-bottom: 0.4em solid transparent;
+  margin-top: -0.1em;
+}
+
+
+input[type="checkbox"]:checked ~ h3 label:before {
+  border-left: 0.5em solid transparent;
+  border-top: 0.5em solid black;
+  border-right: 0.5em solid transparent;
+  margin-left: -0.25em;
+  margin-top: -0.25em;
+}
+
+
+.content-title {
+  max-height: 0;
+  display: none;
+  padding-left: 1.5em;
+  transition: max-height 0.4s ease;
+}
+
+.main-content ol {
+  background: rgb(242, 242, 242);
+}
+
+input[type="checkbox"]:checked ~ h3 ~ ol li {
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  display: block;
+  max-height: 10em;
+}
+
+h3 .title-label {
+  box-shadow: 0 0.05em 0.15em rgba(0,0,0,0.25);
+  background: #f7f7f7;
+}
+
+/*
+End of Finanace page
+*/
 
 #IITLogin {
-  padding-left: 100px;
-  padding-bottom: 42px;
+  padding-left: 5em;
+  padding-bottom: 2.1em;
+  margin: 0 auto;
+  width: 15em;
 }
 
 #username {
-  padding-top: 50px;
-  padding-bottom: 35px;
+  padding-top: 2.5em;
+  padding-bottom: 1.75em;
 }
 
 #name-field {
-  height: 25px;
-  width: 200px;
-  border: 3px solid #A9A9A9;
-  padding: 4px 7px;
-  border-radius: 6px;
+  height: 2.2em;
+  width: 18em;
+  border: 0.3em solid #A9A9A9;
+  padding: 0.4em 0.7em;
+  border-radius: 0.6em;
 }
 
 #password {
-  padding-bottom: 23px;
+  padding-bottom: 1.15em;
 }
 
 #password-field {
-  height: 25px;
-  width: 200px;
-  border: 3px solid #A9A9A9;
-  padding: 4px 7px;
-  border-radius: 6px;
+  height: 2.2em;
+  width: 18em;
+  border: 0.3em solid #A9A9A9;
+  padding: 0.4em 0.7em;
+  border-radius: 0.6em;
 }
 
 #submit {
-  padding-left: 80px;
+  padding-left: 4.4em;
 }
 
 #submit-button {
-  height: 30px;
-  width: 30px;
+  height: 2.4em;
+  width: 2.4em;
   opacity: 0.8;
-  padding: 4px 7px;
+  padding: 0.4em 0.7em;
   background-color: #FFFFFF;
 }
 
 .social-media {
   text-align: center;
-  width: 200px;
+  width: 10em;
   height: auto;
-  padding-left: 100px;
+  padding-left: 5em;
+}
+
+.social-media-icons {
+  margin: 0 auto;
+  width: 18em;
+  padding-bottom: 0.75em;
 }
 
 .login-links {
-  text-align: center;
   display: inline-flex;
-  padding-top: 20px;
-  font-size: 15px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 0.75em;
   font-weight: lighter;
+  background-color: #C6263D;
+  opacity: 0.9;
+  margin: 0 auto;
+  width: 100%;
 }
 
 a {
   text-decoration: none;
-  color: #A9A9A9;
+  color: #FFF;
 }
 
 .alert {
-  padding-left: 90px;
-  padding-right: 20px;
+  padding-left: 2.25em;
+  color: white;
+  margin: 0 auto;
 }
 
 .help {
-  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.policy {
+  margin: 0 auto;
 }
 
 .submit-label {
-  padding-left: 77px;
+  padding-left: 4.3em;
   color: #45A148;
   opacity: 0.8;
-  font-size: 18px;
+  font-size: 1em;
 }
+

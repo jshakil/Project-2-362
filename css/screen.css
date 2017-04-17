@@ -49,11 +49,9 @@ h1 {
   left: 8.5em; /*170 / 20 = 8.5em */
 }
 
-/*
-==================================
-Finance Page
-==================================
-*/
+/*  ==================================
+            BEGIN Finance Page
+    ==================================  */
 
 #content {
   font-family: "Futura", "Trebuchet MS", "Arial", sans-serif;
@@ -138,9 +136,12 @@ h3 .title-label {
   background: #f7f7f7;
 }
 
-/*
-End of Finanace page
-*/
+/* End of Finanace page */
+
+/* ==================================
+           BEGIN Login Page
+  ================================== */
+
 
 #IITLogin {
   padding-left: 5em;
@@ -235,5 +236,43 @@ a {
   color: #45A148;
   opacity: 0.8;
   font-size: 1em;
+}
+
+/* END login page */
+
+/* ===== STATE STYLES ===== */
+
+/* 775 @ 20px/em */
+@media screen and (min-width: 38.75em) {
+  #page {
+    margin: 0 25.42857143% 0 14.28571429%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  #page {
+    margin: 0;
+  }
+  .content {
+    position: relative;
+  }
+  #primary {
+    width: 54%; /* 378px @ 700px */
+    float: left;
+  }
+  #secondary {
+    width: 39.71428571%; /* 278px @ 700px */
+    float: right;
+  }
+  footer {
+    clear: both;
+  }
+}
+
+@media screen and (min-width: 21.81em) {
+  #Mac {
+    display: inline;
+    padding-left: 2em;
+  }
 }
 

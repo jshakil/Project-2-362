@@ -399,4 +399,11 @@ header > nav > ul > li:hover > nav {
   }
 }
 
+header nav > ul > li > a span.caret {
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid;
+  border-right: 3px solid transparent;
+  border-left: 3px solid transparent;
+}
+
 }

@@ -58,9 +58,11 @@ h1 {
   font-size: 0.9em; /*18 / 20 = 0.9 */
   line-height: 1.27778em; /*23 / 20 = 1.277*/
 }
+
 section {
   position: relative;
 }
+
 .main-content > ol {
   display: flex;
   justify-content: space-between;
@@ -103,7 +105,6 @@ input[type="checkbox"] {
   margin-top: 0.2em;
 }
 
-
 input[type="checkbox"]:checked ~ h3 label:before {
   border-left: 0.5em solid transparent;
   border-top: 0.5em solid black;
@@ -111,7 +112,6 @@ input[type="checkbox"]:checked ~ h3 label:before {
   margin-left: -0.25em;
   margin-top: 0.2em;
 }
-
 
 .content-title {
   max-height: 0;
@@ -269,7 +269,6 @@ header > div#logo > div#navigation-toggle {
 header > div#logo > div#navigation-toggle > a {
   color: #FFFFFF;
   font-size: 0.85em;
-  font-weight: bold;
   text-decoration: none;
   padding: 0 3em;
   display: block;

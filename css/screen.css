@@ -369,7 +369,10 @@ header > div#logo > h2 {
 header > nav {
   background-color: #C6263D;
   display: block;
-}
 
+}
+header nav > ul > li {
+  border-bottom: none;
+}
 
 }

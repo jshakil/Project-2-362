@@ -281,6 +281,22 @@ header > nav {
   flex: 1;
 }
 
+header nav > ul {
+  list-style-type: none;
+}
+
+header nav > ul > li {
+  border-bottom: 1px dashed;
+  position: relative;
+}
+
+header nav > ul > li > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  padding: 1.5em 0;
+}
+
 /* END WELCOME PAGE*/
 
 

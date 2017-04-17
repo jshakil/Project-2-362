@@ -297,6 +297,15 @@ header nav > ul > li > a {
   padding: 1.5em 0;
 }
 
+header nav > ul > li > a span.toggle {
+  color: #FFFFFF;
+  text-transform: lowercase;
+  font-size: 0.5em;
+  background-color: #990000;
+  border-radius: 3em;
+  padding: 2px 6px;
+}
+
 /* END WELCOME PAGE*/
 
 

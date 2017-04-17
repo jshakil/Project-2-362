@@ -306,6 +306,7 @@ header nav > ul > li > a span.toggle {
   padding: 2px 6px;
 }
 
+
 /* END WELCOME PAGE*/
 
 
@@ -323,5 +324,20 @@ header nav > ul > li > a span.toggle {
     display: inline;
     padding-left: 2em;
   }
+}
+
+@media all and (min-width: 600px) {
+  header > div#logo > div#navigation-toggle {
+  display: none;
+}
+
+header {
+  background-color: #C6263D;
+  flex-direction: row;
+  line-height: 60px;
+  padding: 0 1em;
+  position: fixed;
+  text-align: left;
+  width: 100%;
 }
 

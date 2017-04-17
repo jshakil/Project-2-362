@@ -356,4 +356,14 @@ header {
   text-align: left;
   width: 100%;
 }
+
+header > div#logo {
+  background-color: #C6263D;
+  line-height: 60px;
+}
+
+header > div#logo > h2 {
+  color: #FFFFFF;
+}
+
 }

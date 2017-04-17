@@ -236,3 +236,8 @@ a {
   font-size: 1em;
 }
 
+header {
+    background-color: #AF0B0B;
+    border-bottom: 1px solid;
+    text-align: center;
+}

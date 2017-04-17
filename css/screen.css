@@ -381,4 +381,8 @@ header > nav > ul {
   justify-content: flex-end;
 }
 
+header nav > ul > li > a {
+  padding: 0 1.25em;
+}
+
 }

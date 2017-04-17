@@ -275,6 +275,11 @@ header > div#logo > div#navigation-toggle > a {
   display: block;
 }
 
+header > nav {
+  background-color: #C90909;
+  display: none;
+  flex: 1;
+}
 
 /* END WELCOME PAGE*/
 

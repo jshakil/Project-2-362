@@ -9,7 +9,7 @@ jQuery(function($) {
           window.location.replace('finances/index.html');
       } else {
           console.log('Bad username');
-          $('#IITLogin').prepend('<div class="incorrect-credentials">Invalid credentials</div>');
+          $('#IITLogin').prepend('Invalid credentials');
       }
       e.preventDefault();           
   })   

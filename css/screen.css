@@ -116,8 +116,6 @@ input[type="checkbox"]:checked ~ h3 label:before {
 .content-title {
   max-height: 0;
   display: none;
-  padding-left: 1.5em;
-  transition: max-height 0.4s ease;
 }
 
 .main-content ol {

@@ -8,7 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 html {
-  font-family: "Futura", "Trebuchet MS", "Arial", sans-serif;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 1.25em; /* 20/16 = 1.25*/
   line-height: 1.2em /* 24 / 20 = 1.2em */
 }
@@ -54,7 +54,7 @@ h1 {
     ==================================  */
 
 #content {
-  font-family: "Futura", "Trebuchet MS", "Arial", sans-serif;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 0.9em; /*18 / 20 = 0.9 */
   line-height: 1.27778em; /*23 / 20 = 1.277*/
 }
@@ -66,6 +66,11 @@ section {
 .main-content > ol {
   display: flex;
   justify-content: space-between;
+}
+
+header nav > ul > li {
+  border-bottom: 0.05em dashed;
+  position: relative;
 }
 
 .main-content > ol > li {
@@ -280,7 +285,7 @@ a {
 
 header {
   background-color: #C6263D;
-  border-bottom: 1px solid;
+  border-bottom: 0.05em solid;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -289,7 +294,7 @@ header {
 }
 
 header > div#logo {
-  line-height: 60px;
+  line-height: 3em;
   position: relative;
 }
 
@@ -302,6 +307,21 @@ header > div#logo > div#navigation-toggle {
   top: 0;
   right: 0;
   position: absolute;
+}
+
+header nav > ul > li > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  padding: 1.5em 0;
+}
+
+header > nav > ul > li > nav > ul > li > a {
+  color: #FFFFFF;
+}
+
+header > nav > ul > li > nav > ul > li:hover > a {
+  background-color: #C90909;
 }
 
 header > div#logo > div#navigation-toggle > a {
@@ -322,18 +342,6 @@ header nav > ul {
   list-style-type: none;
 }
 
-header nav > ul > li {
-  border-bottom: 0.05em dashed;
-  position: relative;
-}
-
-header nav > ul > li > a {
-  color: #FFFFFF;
-  text-decoration: none;
-  display: block;
-  padding: 1.5em 0;
-}
-
 header nav > ul > li > a span.toggle {
   color: #FFFFFF;
   text-transform: lowercase;
@@ -350,15 +358,6 @@ header > nav > ul > li > nav {
   display: none;
   overflow: hidden;
 }
-
-header > nav > ul > li > nav > ul > li > a {
-  color: #FFFFFF;
-}
-
-header > nav > ul > li > nav > ul > li:hover > a {
-  background-color: #C90909;
-}
-
 
 /* END WELCOME PAGE*/
 
@@ -379,70 +378,70 @@ header > nav > ul > li > nav > ul > li:hover > a {
   }
 }
 
-@media all and (min-width: 30em) {
+@media all and (min-width: 37.5em) {
   header > div#logo > div#navigation-toggle {
     display: none;
   }
 
-header {
-  background-color: #C6263D;
-  flex-direction: row;
-  line-height: 60px;
-  padding: 0 1em;
-  position: fixed;
-  text-align: left;
-  width: 100%;
-}
-
-header > div#logo {
-  background-color: #C6263D;
-  line-height: 60px;
-}
-
-header > div#logo > h2 {
-  color: #FFFFFF;
-}
-
-header > nav {
-  background-color: #C6263D;
-  display: block;
-
-}
-    
-header nav > ul > li {
-  border-bottom: none;
-}
-
-header > nav > ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-}
-
-header nav > ul > li > a {
-  padding: 0 1.25em;
-}
-
-header nav > ul > li > a span.toggle {
-  display: none;
-}
-
-header > nav > ul > li:hover > nav {
-  background-color: #8A0000;
-  display: block;
-  border-radius: .20em;
-  line-height: 2.5em;
-  right: -40%;
-    width: 9.5em;
+  header {
+    background-color: #C6263D;
+    flex-direction: row;
+    line-height: 3em;
+    padding: 0 1em;
+    position: fixed;
+    text-align: left;
+    width: 100%;
   }
-}
 
-header nav > ul > li > a span.caret {
-  border-bottom: 0.15em solid transparent;
-  border-top: 0.15em solid;
-  border-right: 0.15em solid transparent;
-  border-left: 0.15em solid transparent;
-  border-radius: 0.05em;
-  display: inline-block;
-  margin: 0 0 0 0.2em;
+  header > div#logo {
+    background-color: #C6263D;
+    line-height: 3em;
+  }
+
+  header > div#logo > h2 {
+    color: #FFFFFF;
+  }
+
+  header > nav {
+    background-color: #C6263D;
+    display: block;
+
+  }
+
+  header nav > ul > li {
+    border-bottom: none;
+  }
+
+  header > nav > ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  }
+
+  header nav > ul > li > a {
+    padding: 0 1.25em;
+  }
+
+  header nav > ul > li > a span.toggle {
+    display: none;
+  }
+
+  header > nav > ul > li:hover > nav {
+    background-color: #8A0000;
+    display: block;
+    border-radius: 0.2em;
+    line-height: 2.5em;
+    right: -40%;
+    width: 12em;
+  }
+
+  header nav > ul > li > a span.caret {
+    border-bottom: 0.15em solid transparent;
+    border-top: 0.15em solid;
+    border-right: 0.15em solid transparent;
+    border-left: 0.15em solid transparent;
+    border-radius: 0.05em;
+    display: inline-block;
+    margin: 0 0 0 0.2em;
+  }
 }

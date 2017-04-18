@@ -323,7 +323,7 @@ header nav > ul {
 }
 
 header nav > ul > li {
-  border-bottom: 1px dashed;
+  border-bottom: 0.05em dashed;
   position: relative;
 }
 
@@ -340,7 +340,7 @@ header nav > ul > li > a span.toggle {
   font-size: 0.5em;
   background-color: #990000;
   border-radius: 3em;
-  padding: 2px 6px;
+  padding: 0.1em 0.3em;
 }
 
 header > nav > ul > li > nav {
@@ -379,10 +379,10 @@ header > nav > ul > li > nav > ul > li:hover > a {
   }
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 30em) {
   header > div#logo > div#navigation-toggle {
-  display: none;
-}
+    display: none;
+  }
 
 header {
   background-color: #C6263D;
@@ -408,6 +408,7 @@ header > nav {
   display: block;
 
 }
+    
 header nav > ul > li {
   border-bottom: none;
 }
@@ -423,7 +424,7 @@ header nav > ul > li > a {
 }
 
 header nav > ul > li > a span.toggle {
-  display: none;  
+  display: none;
 }
 
 header > nav > ul > li:hover > nav {
@@ -432,16 +433,16 @@ header > nav > ul > li:hover > nav {
   border-radius: .20em;
   line-height: 2.5em;
   right: -40%;
-  width: 190px;
+    width: 9.5em;
   }
 }
 
 header nav > ul > li > a span.caret {
-  border-bottom: 3px solid transparent;
-  border-top: 3px solid;
-  border-right: 3px solid transparent;
-  border-left: 3px solid transparent;
-  border-radius: 1px;
+  border-bottom: 0.15em solid transparent;
+  border-top: 0.15em solid;
+  border-right: 0.15em solid transparent;
+  border-left: 0.15em solid transparent;
+  border-radius: 0.05em;
   display: inline-block;
-  margin: 0 0 0 .2em;
+  margin: 0 0 0 0.2em;
 }

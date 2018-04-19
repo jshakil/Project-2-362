@@ -13,6 +13,7 @@ jQuery(function($) {
     }
     e.preventDefault();           
   })
+    
   $("#navigation-toggle a").click(function(e){
     e.preventDefault();
 
